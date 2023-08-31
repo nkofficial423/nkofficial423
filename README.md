@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @nkofficial423
+- 👋 Hi, I’m Nikhil Kumar
 - 👀 I’m interested in Cloud and Artificial Intelligence
 - 🌱 I’m currently Pursuing Diploma In Electrical Engineering
 
