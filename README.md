@@ -1,9 +1,6 @@
 - 👋 Hi, I’m Nikhil Kumar
 - 👀 I’m interested in Cloud and Artificial Intelligence
-- 🌱 I’m currently Pursuing Diploma In Electrical Engineering
+- 🌱 I’m currently Pursuing Diploma In Electrical Engineering From G.B.Pant DSEU OKHLA-III Campus Comes Under Delhi Skill and Entrepreneurship University
 
 
-<!---
-nkofficial423/nkofficial423 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
