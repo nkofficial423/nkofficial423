@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fancy HTML Document</title>
+  <style>
+    body {
+      background-color: #eee;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: red;
+      font-size: 2em;
+      text-align: center;
+    }
+
+    h2 {
+      font-weight: bold;
+      font-size: 1.5em;
+      text-decoration: underline;
+    }
+
+    p {
+      text-indent: 1em;
+      line-height: 1.5;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .color {
+      color: blue;
+    }
+
+    .line-break {
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px solid black;
+    }
+
+    .blink {
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .marquee {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: marquee 5s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+  </style>
+</head>
+<body>
+  <h1> FRONT AND WEB DESIGN S DEVELOPMENT </h1>
+  <h2>This is an important heading</h2>
+  <p class="bold">This paragraph is bold.</p>
+  <p class="italic">This paragraph is italic.</p>
+  <p class="underline">This paragraph is underlined.</p>
+  <p class="color">This paragraph is blue.</p>
+
+  <p>This paragraph has <br> line breaks.</p>
+
+  <hr class="line-break">
+
+  <p class="blink">This text is blinking.</p>
+
+  <p class="marquee">                MY            NAME          IS        ANUSHKA </p>
+
+</body>
+</html>
