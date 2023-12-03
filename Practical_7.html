@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="rollNumber">Roll Number:</label>
+        <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter your roll number">
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth">
+
+        <label for="gender">Gender:</label>
+        <div>
+            <label><input type="radio" id="male" name="gender" value="male"> Male</label>
+            <label><input type="radio" id="female" name="gender" value="female"> Female</label>
+        </div>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="">Select course</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+        </select>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" name="contactNumber" placeholder="Enter your contact number">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="validationMessage"></div>
+</body>
+</html>
